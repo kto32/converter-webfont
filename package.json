@@ -1,12 +1,17 @@
 {
   "name": "converter-webfont",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kto32/converter-webfont",
   "description": "Конвертирование шрифтов из формата ttf, otf в формат eot,woff,woff2,svg с созданием соответствующего стилевого файла",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Лаптева Анастасия",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kto32/onverter-webfont.git"
+  },
   "license": "MIT",
   "dependencies": {
     "argparse": "^1.0.10",
