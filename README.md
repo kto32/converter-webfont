@@ -24,7 +24,7 @@ var convertFont = require('converter-webfont');
 //do something
 
 try {
-    convertFont(./pathIn, ./pathTo, format);
+    convertFont('./pathIn', './pathTo', format);
 } catch (err) {
     console.log(err);
 }
@@ -40,7 +40,7 @@ var convertFont = require('converter-webfont');
 
 //do something
 
-convertFont(./pathIn, ./pathTo, format);
+convertFont('./pathIn', './pathTo', format);
 
 //do something
 ```
