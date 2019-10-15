@@ -2,7 +2,7 @@
 'use strict';
 
 var ArgumentParser = require('argparse').ArgumentParser;
-var convertFont = require('./src/index');
+var convertFont = require('converter-webfont');
 
 var parser = new ArgumentParser({
     verison: '0.01',
