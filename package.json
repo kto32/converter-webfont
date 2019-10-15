@@ -7,12 +7,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Лаптева Анастасия",
+  "author": {
+    "name": "Лаптева Анастасия"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kto32/onverter-webfont.git"
+    "url": "git://github.com/kto32/converter-webfont.git"
   },
-  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kto32/converter-webfont/issues"
+  },  
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kto32/converter-webfont/blob/master/LICENSE"
+    }
+  ],
   "dependencies": {
     "argparse": "^1.0.10",
     "microbuffer": "^1.0.0",
