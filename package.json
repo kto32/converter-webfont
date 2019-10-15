@@ -1,6 +1,6 @@
 {
   "name": "converter-webfont",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/kto32/converter-webfont",
   "description": "Конвертирование шрифтов из формата ttf, otf в формат eot,woff,woff2,svg с созданием соответствующего стилевого файла",
   "main": "src/index.js",
