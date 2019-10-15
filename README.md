@@ -77,4 +77,5 @@ Default value: `svg,ttf,eot,woff`
 
 ## Release History
 _(v.0.0.0)_
+
 _(v.1.0.0)_
