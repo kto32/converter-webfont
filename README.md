@@ -6,6 +6,8 @@
 ### Установка глобально
 ```shell
 npm install converter-webfont -g
+
+npm install git://github.com/kto32/converter-webfont -g
 ```
 #### Пример использования
 ```shell
@@ -15,6 +17,8 @@ cwebfont ./pathIn ./pathTo format
 ### Установка в проект
 ```shell
 npm install converter-webfont
+
+npm install git://github.com/kto32/converter-webfont
 ```
 
 #### Пример использования
