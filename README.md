@@ -28,7 +28,7 @@ var convertFont = require('converter-webfont');
 //do something
 
 try {
-    convertFont('./pathIn', './pathTo', format);
+    convertFont('./pathIn', './pathTo', 'svg,eot,ttf,woff');
 } catch (err) {
     console.log(err);
 }
@@ -44,7 +44,7 @@ var convertFont = require('converter-webfont');
 
 //do something
 
-convertFont('./pathIn', './pathTo', format);
+convertFont('./pathIn', './pathTo', 'svg,eot,ttf,woff');
 
 //do something
 ```
