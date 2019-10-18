@@ -5,7 +5,7 @@
 
 ## Readme
 
-[EN](https://github.com/kto32/converter-webfont/README.md)
+[EN](https://github.com/kto32/converter-webfont/blob/master/README.md)
 
 ## Начиная
 ### Установка глобально

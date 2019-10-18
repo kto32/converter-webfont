@@ -4,7 +4,7 @@
 
 ## Readme
 
-[RU](https://github.com/kto32/converter-webfont/README_RU.md)
+[RU](https://github.com/kto32/converter-webfont/blob/master/README_RU.md)
 
 ## Getting Started
 ### Installation globally
