@@ -1,27 +1,31 @@
 # Converter-webfont
 
-> Конвертер шрифтов из ttf,otf в форматы svg,woff,woff2,eot
+> Font converter from ttf, otf to svg, woff, woff2, eot formats
+
+## Readme
+
+[RU](https://github.com/kto32/converter-webfont/README_RU.md)
 
 ## Getting Started
-### Установка глобально
+### Installation globally
 ```shell
 npm install converter-webfont -g
 
 npm install git://github.com/kto32/converter-webfont -g
 ```
-#### Пример использования
+#### Usage example
 ```shell
 cwebfont ./pathIn ./pathTo format
 ```
 
-### Установка в проект
+### Installation in the project
 ```shell
 npm install converter-webfont
 
 npm install git://github.com/kto32/converter-webfont
 ```
 
-#### Пример использования
+#### Usage example
 ```js
 var convertFont = require('converter-webfont');
 
@@ -36,7 +40,7 @@ try {
 //do something
 ```
 
-или 
+or
 
 
 ```js
@@ -56,23 +60,23 @@ Type: `String`
 
 Required: `true`
 
-Путь до папки с шрифтами формата ttf, otf. Файлы других форматов в папке игнорируются.
+The path to the folder with fonts in the ttf, otf format. Files of other formats in the folder are ignored.
 
 ##### ./pathTo
 Type: `String`
 
-Путь для сохранения результата.
+The path to save the result.
 
-> Если не указать путь до папки сохранения результата, а указать формат либо оставить поле пустым, то реузльтат будет сохранен в туже папку
+> If you don't specify the path to the folder for saving the result, but specify the format or leave the field empty, then the result will be saved in the same folder
 
 #### format
 Type: `String`
 
 Default value: `svg,ttf,eot,woff`
 
-Указать форматы через запятую, возможные форматы: `svg,ttf,eot,woff,woff2`.
+Specify formats separated by commas, possible formats: `svg,ttf,eot,woff,woff2`.
 
-> При использовании woff2 скрипт будет отрабатывать чуть дольше из за компрессии.
+> When using woff2, the script will work out a little longer due to compression.
 
 
 ## Release History
