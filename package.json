@@ -11,6 +11,12 @@
     "name": "Asya Lapteva",
     "email": "asya.lapteva@yandex.ru"
   },
+  "contributors": [
+    {
+      "name": "kto32",
+      "email": "ktororu@yandex.ru"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kto32/converter-webfont.git"
