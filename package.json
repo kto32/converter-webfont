@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
-    "name": "Лаптева Анастасия"
+    "name": "Asya Lapteva",
+    "email": "asya.lapteva@yandex.ru"
   },
   "repository": {
     "type": "git",
